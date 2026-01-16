@@ -25,6 +25,7 @@ export default function FloatingWhatsApp() {
         justify-center
       "
     >
+      {/* <span className="text-2xl">💬</span> */}
       <img
         src="/whatsapp.svg"
         alt="WhatsApp"
