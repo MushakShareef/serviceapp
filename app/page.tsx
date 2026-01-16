@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Electrician & Plumber in Your Area | ServiceApp",
+  title: "SparkFlow Services | Electrician & Plumber in Trichy",
   description:
     "Reliable electrician and plumber services in Trichy. Fast response, affordable pricing. Call now or book service.",
 };
@@ -29,11 +29,13 @@ export default function Home() {
             </a>
 
             <a
-              href="/book"
-              className="bg-blue-600 text-white px-6 py-3 rounded-md text-lg font-semibold hover:bg-blue-700"
+              href="https://wa.me/917010239825?text=Hi%20*SparkFlow%20Services*,%0A%0AMy%20name%20is:%0A%0AI%20need%20electrician/plumber%20service%20in%20my%20area.%0A%0APlease%20contact%20me.%0AThank%20you. "
+              target="_blank"
+              className="bg-green-600 text-white px-6 py-3 rounded-md font-semibold hover:bg-green-700"
             >
-              📝 Book Service
+              💬 Book on WhatsApp
             </a>
+
           </div>
         </div>
       </section>
@@ -64,12 +66,15 @@ export default function Home() {
               >
                 Call
               </a>
+
               <a
-                href="/book"
-                className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
+                href="https://wa.me/917010239825?text=Hi%20*SparkFlow%20Services*,%0A%0AMy%20name%20is:%0A%0AI%20need%20electrician/plumber%20service%20in%20my%20area.%0A%0APlease%20contact%20me.%0AThank%20you. "
+                target="_blank"
+                className="bg-green-600 text-white px-6 py-3 rounded-md font-semibold hover:bg-green-700"
               >
-                Book
+                💬 Book on WhatsApp
               </a>
+
             </div>
           </div>
 
@@ -93,11 +98,13 @@ export default function Home() {
                 Call
               </a>
               <a
-                href="/book"
-                className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
+                href="https://wa.me/917010239825?text=Hi%20*SparkFlow%20Services*,%0A%0AMy%20name%20is:%0A%0AI%20need%20electrician/plumber%20service%20in%20my%20area.%0A%0APlease%20contact%20me.%0AThank%20you. "
+                target="_blank"
+                className="bg-green-600 text-white px-6 py-3 rounded-md font-semibold hover:bg-green-700"
               >
-                Book
+                💬 Book on WhatsApp
               </a>
+
             </div>
           </div>
         </div>

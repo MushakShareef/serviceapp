@@ -6,7 +6,7 @@ export default function Footer() {
         {/* Brand */}
         <div>
           <h3 className="text-xl font-bold text-white">
-            ServiceApp
+            SparkFlow Services
           </h3>
           <p className="mt-2 text-sm">
             Reliable Electrician & Plumber services for your local area.
@@ -32,7 +32,7 @@ export default function Footer() {
           </h4>
           <p className="text-sm">
             📞 <a href="tel:1234567890" className="hover:underline">
-              1234567890
+              7010239825
             </a>
           </p>
           <p className="text-sm mt-1">
@@ -42,7 +42,7 @@ export default function Footer() {
       </div>
 
       <div className="border-t border-gray-700 text-center text-sm py-4">
-        © {new Date().getFullYear()} ServiceApp. All rights reserved.
+        © {new Date().getFullYear()} SparkFlow Services.
       </div>
     </footer>
   );

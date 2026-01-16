@@ -12,7 +12,7 @@ export default function Header() {
         
         {/* Logo */}
         <Link href="/" className="text-xl font-bold text-gray-900">
-          ServiceApp
+          SparkFlow Services
         </Link>
 
         {/* Desktop Menu */}
@@ -21,9 +21,14 @@ export default function Header() {
             Home
           </Link>
 
-          <Link href="/book" className="text-gray-700 hover:text-gray-900">
-            Book Service
-          </Link>
+          <a
+            href="https://wa.me/917010239825?text=Hi%20*SparkFlow%20Services*,%0A%0AMy%20name%20is:%0A%0AI%20need%20electrician/plumber%20service%20in%20my%20area.%0A%0APlease%20contact%20me.%0AThank%20you. "
+            target="_blank"
+            className="bg-green-600 text-white px-6 py-3 rounded-md font-semibold hover:bg-green-700"
+          >
+            💬 Book on WhatsApp
+          </a>
+
 
           <a
             href="tel:1234567890"
@@ -55,16 +60,8 @@ export default function Header() {
               Home
             </Link>
 
-            <Link
-              href="/book"
-              onClick={() => setMenuOpen(false)}
-              className="text-gray-700"
-            >
-              Book Service
-            </Link>
-
             <a
-              href="tel:1234567890"
+              href="tel:7010239825"
               className="bg-green-600 text-white text-center py-2 rounded"
             >
               📞 Call Now
