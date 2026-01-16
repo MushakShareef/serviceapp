@@ -60,6 +60,17 @@ export default function Header() {
               Home
             </Link>
 
+
+
+            <a
+              href="https://wa.me/917010239825?text=Hi%20*SparkFlow%20Services*,%0A%0AMy%20name%20is:%0A%0AI%20need%20electrician%20or%20plumber%20service%20in%20my%20area.%0A%0APlease%20contact%20me.%0AThank%20you."
+              target="_blank"
+              className="bg-green-600 text-white text-center py-2 rounded"
+            >
+              💬 Book on WhatsApp
+            </a>
+
+
             <a
               href="tel:7010239825"
               className="bg-green-600 text-white text-center py-2 rounded"
