@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <main className="bg-gray-50">
       {/* HERO SECTION */}
-      <section className="min-h-screen flex items-center justify-center">
+      <section className="min-h-screen bg-green-100 flex items-center justify-center">
         <div className="text-center px-4">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900">
             Reliable Electrician & Plumber
@@ -41,7 +41,7 @@ export default function Home() {
       </section>
 
       {/* SERVICES SECTION */}
-      <section className="py-16 px-4 max-w-6xl mx-auto">
+      <section className="py-16 px-4 bg-red-100 max-w-6xl mx-auto">
         <h2 className="text-3xl font-bold text-center text-gray-900">
           Our Services
         </h2>
@@ -111,7 +111,7 @@ export default function Home() {
       </section>
 
       {/* WHY CHOOSE US SECTION */}
-      <section className="bg-white py-16 px-4">
+      <section className="bg-green-100 py-16 px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold text-center text-gray-900">
             Why Choose Us
