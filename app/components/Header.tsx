@@ -12,7 +12,7 @@ export default function Header() {
         
         {/* Logo */}
         <Link href="/" className="italic text-xl font-bold text-white">
-          SparkFlow Services
+          Bismi Electrical & Plumbing
         </Link>
 
         {/* Desktop Menu */}
@@ -22,7 +22,7 @@ export default function Header() {
           </Link> */}
 
           <a
-            href="https://wa.me/917010239825?text=Hi%20*SparkFlow%20Services*,%0A%0A%0A%0AI%20need%20electrician/plumber%20service%20in%20my%20area.%0A%0A%0A%0A%20My%20name%20is:%0A%0APlease%20contact%20me.%0AThank%20you."
+            href="https://wa.me/918667697839?text=Hi%20*Bismi%20Electrical%20and%20Plumbing*,%0AMy%20Name%20is:%0A%0AI%20need%20electrician%20or%20plumber%20service%20for%20me.%0A%0APlease%20contact%20me.%0AThank%20you."
             target="_blank"
             className="bg-green-600 text-white px-6 py-3 rounded-md font-semibold hover:bg-green-700"
           >
@@ -31,7 +31,7 @@ export default function Header() {
 
 
           <a
-            href="tel:1234567890"
+            href="tel:8667697839"
             className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700"
           >
             📞 Call Now
@@ -63,7 +63,7 @@ export default function Header() {
 
 
             <a
-              href="https://wa.me/917010239825?text=Hi%20*SparkFlow%20Services*,%0A%0AMy%20name%20is:%0A%0AI%20need%20electrician%20or%20plumber%20service%20in%20my%20area.%0A%0APlease%20contact%20me.%0AThank%20you."
+              href="https://wa.me/918667697839?text=Hi%20*SparkFlow%20Services*,%0AMy%20Name%20is:%0A%0AI%20need%20electrician%20or%20plumber%20service%20for%20me.%0A%0APlease%20contact%20me.%0AThank%20you."
               target="_blank"
               className="bg-green-600 text-white text-center py-2 rounded"
             >
@@ -72,7 +72,7 @@ export default function Header() {
 
 
             <a
-              href="tel:7010239825"
+              href="tel:8667697839"
               className="bg-green-600 text-white text-center py-2 rounded"
             >
               📞 Call Now

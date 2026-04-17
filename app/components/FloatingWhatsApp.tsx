@@ -2,7 +2,7 @@
 
 export default function FloatingWhatsApp() {
   const whatsappLink =
-    "https://wa.me/917010239825?text=Hi%20*SparkFlow%20Services*,%0A%0A%0A%0AI%20need%20electrician/plumber%20service%20in%20my%20area.%0A%0A%0A%0A%20My%20name%20is:%0A%0APlease%20contact%20me.%0AThank%20you.";
+    "https://wa.me/918667697839?text=Hi%20*Bismi%20Electrical%20and%20Plumbing*,%0A%0AI%20need%20electrician/plumber%20service%20for%20me.%0A%0A%20My%20Name%20is:%0A%0APlease%20contact%20me.%0AThank%20you.";
 
   return (
     <a

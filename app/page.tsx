@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "SparkFlow Services | Electrician & Plumber in Trichy",
+  title: "Bismi Electrical & Plumbing | Electrician & Plumber in Trichy",
   description:
     "Reliable electrician and plumber services in Trichy. Fast response, affordable pricing. Call now or book service.",
 };
@@ -10,33 +10,43 @@ export default function Home() {
   return (
     <main className="bg-gray-50">
       {/* HERO SECTION */}
-      <section className="min-h-screen bg-green-100 flex items-center justify-center">
-        <div className="text-center px-4">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900">
+      <section className="min-h-[80vh] bg-green-100 flex items-center justify-center py-12 px-4">
+        <div className="w-full max-w-4xl flex flex-col items-center justify-center text-center">
+          
+          {/* LOGO CONTAINER - Fixed for Centering */}
+          <div className="mb-8 w-full flex justify-center">
+            <img 
+              src="/logo.png" 
+              alt="BEP Logo" 
+              className="w-40 h-40 md:w-56 md:h-56 lg:w-64 lg:h-64 object-cover rounded-full border-4 border-green-600 shadow-xl"
+            />
+          </div>
+
+          {/* TEXT CONTENT */}
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-gray-900 leading-tight">
             Reliable Electrician & Plumber
           </h1>
 
-          <p className="mt-4 text-lg text-gray-600">
+          <p className="mt-4 text-base sm:text-lg md:text-xl text-gray-700 max-w-2xl">
             Serving your local area with fast and trusted service
           </p>
 
-          <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
+          {/* BUTTONS */}
+          <div className="mt-10 flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
             <a
-              href="tel:7010239825"
-              className="bg-green-600 text-white px-6 py-3 rounded-md text-lg font-semibold hover:bg-green-700"
+              href="tel:8667697839"
+              className="bg-green-600 text-white px-8 py-4 rounded-full text-lg font-bold hover:bg-green-700 transition-all shadow-md flex items-center justify-center gap-2"
             >
               📞 Call Now
             </a>
 
             <a
-              href="https://wa.me/917010239825?text=
-              Hi%20*SparkFlow%20Services*,%0A%0A%0A%0AI%20need%20electrician/plumber%20service%20in%20my%20area.%0A%0AMy%20name%20is:%0A%0APlease%20contact%20me.%0AThank%20you."
+              href="https://wa.me/918667697839?text=Hi%20*Bismi%20Electrical%20%26%20Plumbing*%2C%0A%0AI%20need%20service."
               target="_blank"
-              className="bg-green-600 text-white px-6 py-3 rounded-md font-semibold hover:bg-green-700"
+              className="bg-[#25D366] text-white px-8 py-4 rounded-full text-lg font-bold hover:bg-green-500 transition-all shadow-md flex items-center justify-center gap-2"
             >
               💬 Book on WhatsApp
             </a>
-
           </div>
         </div>
       </section>
@@ -62,14 +72,14 @@ export default function Home() {
 
             <div className="mt-6 flex gap-4">
               <a
-                href="tel:7010239825"
+                href="tel:8667697839"
                 className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700"
               >
                 Call
               </a>
 
               <a
-                href="https://wa.me/917010239825?text=Hi%20*SparkFlow%20Services*,%0A%0A%0A%0AI%20need%20electrician%20service%20in%20my%20area.%0A%0A%0A%0A%20My%20name%20is:%0A%0APlease%20contact%20me.%0AThank%20you."
+                href="https://wa.me/918667697839?text=Hi%20*Bismi%20Electrical%20and%20Plumbing*,%0A%0AI%20need%20electrician%20service%20for%20me.%0A%0A%20My%20Name%20is:%0A%0APlease%20contact%20me.%0AThank%20you."
                 target="_blank"
                 className="bg-green-600 text-white px-6 py-3 rounded-md font-semibold hover:bg-green-700"
               >
@@ -93,13 +103,13 @@ export default function Home() {
 
             <div className="mt-6 flex gap-4">
               <a
-                href="tel:7010239825"
+                href="tel:8667697839"
                 className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700"
               >
                 Call
               </a>
               <a
-                href="https://wa.me/917010239825?text=Hi%20*SparkFlow%20Services*,%0A%0A%0A%0AI%20need%20plumber%20service%20in%20my%20area.%0A%0A%0A%0A%20My%20name%20is:%0A%0APlease%20contact%20me.%0AThank%20you."
+                href="https://wa.me/918667697839?text=Hi%20*Bismi%20Electrical%20and%20Plumbing*,%0A%0AI%20need%20plumber%20service%20for%20me.%0A%0A%20My%20Name%20is:%0A%0APlease%20contact%20me.%0AThank%20you."
                 target="_blank"
                 className="bg-green-600 text-white px-6 py-3 rounded-md font-semibold hover:bg-green-700"
               >

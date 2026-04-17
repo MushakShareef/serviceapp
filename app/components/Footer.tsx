@@ -6,7 +6,7 @@ export default function Footer() {
         {/* Brand */}
         <div>
           <h3 className="text-xl font-bold text-white">
-            SparkFlow Services
+            Bismi Electrical & Plumbing
           </h3>
           <p className="mt-2 text-sm">
             Reliable Electrician & Plumber services for your local area.
@@ -31,8 +31,8 @@ export default function Footer() {
             Contact
           </h4>
           <p className="text-sm">
-            📞 <a href="tel:1234567890" className="hover:underline">
-              7010239825
+            📞 <a href="tel:8667697839" className="hover:underline">
+              8667697839
             </a>
           </p>
           <p className="text-sm mt-1">
@@ -42,7 +42,7 @@ export default function Footer() {
       </div>
 
       <div className="border-t border-gray-700 text-center text-sm py-4">
-        © {new Date().getFullYear()} SparkFlow Services.
+         *Powered by EAmee Web Studio*
       </div>
     </footer>
   );
